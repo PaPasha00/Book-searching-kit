@@ -1,0 +1,41 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.containerBooks {
+    width: 100%;
+    padding: 15px 50px;
+    min-height: 100vh;
+}
+
+.booksContainer {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.container button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    transition: 400ms ease all;
+    font-weight: 600;
+}
+
+.container button:hover {
+    background-color: gray;
+    color: white;
+}
+
+.results img {
+    height: 50px;
+}
+
+.results h1 {
+    color: white;
+}

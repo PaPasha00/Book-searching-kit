@@ -1,0 +1,68 @@
+.Auth {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Auth h1 {
+    font-weight: 600;
+    font-size: 17px;
+    padding-bottom: 17px;
+    color: #f0f0f0;
+}
+
+.areaCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.textArea {
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    resize: none;
+    background-color: #f0f0f0;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #0048ff;
+    color: white;
+    font-weight: 700;
+    transition: 300ms ease all;
+}
+.button:hover { 
+    color: black;
+}
+
+.buttonText {
+    color: #0073ff;
+    font-weight: 500;
+    padding: 10px 5px 3px 5px;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid transparent;
+    transition: 300ms ease all;
+}
+.buttonText:hover {
+    color: #000000;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.secondCont span {
+    padding: 10px 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: #f0f0f0;
+}
+@media (max-width: 500px) {
+    .textArea {
+        width: 250px;
+    }
+}
